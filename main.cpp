@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Welcome to Curie!" << std::endl;
+    std::cout << "Welcome to RadTrack!" << std::endl;
     return 0;
 }
