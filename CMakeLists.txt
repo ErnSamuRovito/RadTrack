@@ -2,13 +2,23 @@ cmake_minimum_required(VERSION 3.28.3)
 
 project(RadTrack)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 23)
 
 # Find the required libraries
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
 
-#include_directories(glad/include)
-add_executable(RadTrack src/main.cpp src/glad.h src/glad.c)
+# Include directories
+include_directories(glad/include)
 
-target_link_libraries(main OpenGL::GL glfw)
+# Automatically add all .cpp and .h files in the src directory
+file(GLOB_RECURSE SOURCES "src/*.c" "src/*.cpp" "src/*.h")
+
+# Add executable with all source files
+add_executable(RadTrack ${SOURCES})
+
+# Link libraries
+target_link_libraries(RadTrack 
+    OpenGL::GL 
+    glfw
+)

@@ -117,24 +117,96 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named RadTrack
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+RadTrack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RadTrack
+.PHONY : RadTrack
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+RadTrack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/build
+.PHONY : RadTrack/fast
+
+src/engine/sources/engine.o: src/engine/sources/engine.cpp.o
+.PHONY : src/engine/sources/engine.o
+
+# target to build an object file
+src/engine/sources/engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.o
+.PHONY : src/engine/sources/engine.cpp.o
+
+src/engine/sources/engine.i: src/engine/sources/engine.cpp.i
+.PHONY : src/engine/sources/engine.i
+
+# target to preprocess a source file
+src/engine/sources/engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.i
+.PHONY : src/engine/sources/engine.cpp.i
+
+src/engine/sources/engine.s: src/engine/sources/engine.cpp.s
+.PHONY : src/engine/sources/engine.s
+
+# target to generate assembly for a file
+src/engine/sources/engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.s
+.PHONY : src/engine/sources/engine.cpp.s
+
+src/engine/sources/gl_helper.o: src/engine/sources/gl_helper.cpp.o
+.PHONY : src/engine/sources/gl_helper.o
+
+# target to build an object file
+src/engine/sources/gl_helper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.o
+.PHONY : src/engine/sources/gl_helper.cpp.o
+
+src/engine/sources/gl_helper.i: src/engine/sources/gl_helper.cpp.i
+.PHONY : src/engine/sources/gl_helper.i
+
+# target to preprocess a source file
+src/engine/sources/gl_helper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.i
+.PHONY : src/engine/sources/gl_helper.cpp.i
+
+src/engine/sources/gl_helper.s: src/engine/sources/gl_helper.cpp.s
+.PHONY : src/engine/sources/gl_helper.s
+
+# target to generate assembly for a file
+src/engine/sources/gl_helper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.s
+.PHONY : src/engine/sources/gl_helper.cpp.s
+
+src/engine/sources/screen.o: src/engine/sources/screen.cpp.o
+.PHONY : src/engine/sources/screen.o
+
+# target to build an object file
+src/engine/sources/screen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.o
+.PHONY : src/engine/sources/screen.cpp.o
+
+src/engine/sources/screen.i: src/engine/sources/screen.cpp.i
+.PHONY : src/engine/sources/screen.i
+
+# target to preprocess a source file
+src/engine/sources/screen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.i
+.PHONY : src/engine/sources/screen.cpp.i
+
+src/engine/sources/screen.s: src/engine/sources/screen.cpp.s
+.PHONY : src/engine/sources/screen.s
+
+# target to generate assembly for a file
+src/engine/sources/screen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.s
+.PHONY : src/engine/sources/screen.cpp.s
 
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
 # target to build an object file
 src/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -142,7 +214,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -150,7 +222,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 src/main.o: src/main.cpp.o
@@ -158,7 +230,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -166,7 +238,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -174,7 +246,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -185,7 +257,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
+	@echo "... RadTrack"
+	@echo "... src/engine/sources/engine.o"
+	@echo "... src/engine/sources/engine.i"
+	@echo "... src/engine/sources/engine.s"
+	@echo "... src/engine/sources/gl_helper.o"
+	@echo "... src/engine/sources/gl_helper.i"
+	@echo "... src/engine/sources/gl_helper.s"
+	@echo "... src/engine/sources/screen.o"
+	@echo "... src/engine/sources/screen.i"
+	@echo "... src/engine/sources/screen.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

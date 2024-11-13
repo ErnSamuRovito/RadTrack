@@ -2,43 +2,41 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 
-int main() {
-    // Inizializza GLFW
-    if (!glfwInit()) {
-        std::cerr << "Failed to initialize GLFW" << std::endl;
-        return -1;
+#include "engine/headers/screen.h"
+#include "engine/headers/engine.h"
+#include "engine/headers/gl_helper.h"
+
+// Default resolution
+const int SCR_WIDTH = 800;
+const int SCR_HEIGHT = 600;
+
+using namespace RadTrack; 
+
+int main(int argc, char *argv[]) {
+    Engine engine = Engine::Builder()
+                        .use_screen(true)
+                        .set_screen_width(SCR_WIDTH)
+                        .set_screen_height(SCR_HEIGHT)
+                        .set_screen_is_mouse_captured(false)
+                        .set_screen_msaa(true)
+                        .set_screen_vsync(true)
+                        .set_screen_title("RadTrack")
+                        .set_gl_blending(true)
+                        .set_gl_cull_face(true)
+                        .set_gl_multisample(true)
+                        .set_gl_depth_test(true)
+                        .build();
+
+    //Time::Update(Screen::GetTime());
+    while (!Screen::isWindowClosed())
+    {
+        GL::SetColor(0.7f, 0.6f, 0.5f, 1.0f);
+        GL::Clear();
+
+        Screen::PollEvents();
+        Screen::SwapBuffers();
     }
 
-    // Crea una finestra GLFW
-    GLFWwindow* window = glfwCreateWindow(800, 600, "RadTrack", nullptr, nullptr);
-    if (!window) {
-        std::cerr << "Failed to create GLFW window" << std::endl;
-        glfwTerminate();
-        return -1;
-    }
-
-    glfwMakeContextCurrent(window);
-
-    // Carica le estensioni OpenGL usando glad
-    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
-        std::cerr << "Failed to initialize OpenGL loader" << std::endl;
-        return -1;
-    }
-
-    // Loop principale
-    while (!glfwWindowShouldClose(window)) {
-        // Gestisci gli input
-        glfwPollEvents();
-
-        // Rendi lo sfondo nero
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
-
-        // Swap buffers
-        glfwSwapBuffers(window);
-    }
-
-    glfwDestroyWindow(window);
-    glfwTerminate();
     return 0;
 }
+
