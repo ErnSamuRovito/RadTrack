@@ -129,6 +129,30 @@ RadTrack/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/build
 .PHONY : RadTrack/fast
 
+src/close_window_callback.o: src/close_window_callback.cpp.o
+.PHONY : src/close_window_callback.o
+
+# target to build an object file
+src/close_window_callback.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.o
+.PHONY : src/close_window_callback.cpp.o
+
+src/close_window_callback.i: src/close_window_callback.cpp.i
+.PHONY : src/close_window_callback.i
+
+# target to preprocess a source file
+src/close_window_callback.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.i
+.PHONY : src/close_window_callback.cpp.i
+
+src/close_window_callback.s: src/close_window_callback.cpp.s
+.PHONY : src/close_window_callback.s
+
+# target to generate assembly for a file
+src/close_window_callback.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.s
+.PHONY : src/close_window_callback.cpp.s
+
 src/engine/sources/engine.o: src/engine/sources/engine.cpp.o
 .PHONY : src/engine/sources/engine.o
 
@@ -152,6 +176,54 @@ src/engine/sources/engine.s: src/engine/sources/engine.cpp.s
 src/engine/sources/engine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.s
 .PHONY : src/engine/sources/engine.cpp.s
+
+src/engine/sources/engine_input.o: src/engine/sources/engine_input.cpp.o
+.PHONY : src/engine/sources/engine_input.o
+
+# target to build an object file
+src/engine/sources/engine_input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.o
+.PHONY : src/engine/sources/engine_input.cpp.o
+
+src/engine/sources/engine_input.i: src/engine/sources/engine_input.cpp.i
+.PHONY : src/engine/sources/engine_input.i
+
+# target to preprocess a source file
+src/engine/sources/engine_input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.i
+.PHONY : src/engine/sources/engine_input.cpp.i
+
+src/engine/sources/engine_input.s: src/engine/sources/engine_input.cpp.s
+.PHONY : src/engine/sources/engine_input.s
+
+# target to generate assembly for a file
+src/engine/sources/engine_input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.s
+.PHONY : src/engine/sources/engine_input.cpp.s
+
+src/engine/sources/engine_time.o: src/engine/sources/engine_time.cpp.o
+.PHONY : src/engine/sources/engine_time.o
+
+# target to build an object file
+src/engine/sources/engine_time.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.o
+.PHONY : src/engine/sources/engine_time.cpp.o
+
+src/engine/sources/engine_time.i: src/engine/sources/engine_time.cpp.i
+.PHONY : src/engine/sources/engine_time.i
+
+# target to preprocess a source file
+src/engine/sources/engine_time.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.i
+.PHONY : src/engine/sources/engine_time.cpp.i
+
+src/engine/sources/engine_time.s: src/engine/sources/engine_time.cpp.s
+.PHONY : src/engine/sources/engine_time.s
+
+# target to generate assembly for a file
+src/engine/sources/engine_time.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.s
+.PHONY : src/engine/sources/engine_time.cpp.s
 
 src/engine/sources/gl_helper.o: src/engine/sources/gl_helper.cpp.o
 .PHONY : src/engine/sources/gl_helper.o
@@ -249,6 +321,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/utils/sources/engine_logger.o: src/utils/sources/engine_logger.cpp.o
+.PHONY : src/utils/sources/engine_logger.o
+
+# target to build an object file
+src/utils/sources/engine_logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.o
+.PHONY : src/utils/sources/engine_logger.cpp.o
+
+src/utils/sources/engine_logger.i: src/utils/sources/engine_logger.cpp.i
+.PHONY : src/utils/sources/engine_logger.i
+
+# target to preprocess a source file
+src/utils/sources/engine_logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.i
+.PHONY : src/utils/sources/engine_logger.cpp.i
+
+src/utils/sources/engine_logger.s: src/utils/sources/engine_logger.cpp.s
+.PHONY : src/utils/sources/engine_logger.s
+
+# target to generate assembly for a file
+src/utils/sources/engine_logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.s
+.PHONY : src/utils/sources/engine_logger.cpp.s
+
+src/utils/sources/utils_types.o: src/utils/sources/utils_types.cpp.o
+.PHONY : src/utils/sources/utils_types.o
+
+# target to build an object file
+src/utils/sources/utils_types.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.o
+.PHONY : src/utils/sources/utils_types.cpp.o
+
+src/utils/sources/utils_types.i: src/utils/sources/utils_types.cpp.i
+.PHONY : src/utils/sources/utils_types.i
+
+# target to preprocess a source file
+src/utils/sources/utils_types.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.i
+.PHONY : src/utils/sources/utils_types.cpp.i
+
+src/utils/sources/utils_types.s: src/utils/sources/utils_types.cpp.s
+.PHONY : src/utils/sources/utils_types.s
+
+# target to generate assembly for a file
+src/utils/sources/utils_types.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.s
+.PHONY : src/utils/sources/utils_types.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -258,9 +378,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... RadTrack"
+	@echo "... src/close_window_callback.o"
+	@echo "... src/close_window_callback.i"
+	@echo "... src/close_window_callback.s"
 	@echo "... src/engine/sources/engine.o"
 	@echo "... src/engine/sources/engine.i"
 	@echo "... src/engine/sources/engine.s"
+	@echo "... src/engine/sources/engine_input.o"
+	@echo "... src/engine/sources/engine_input.i"
+	@echo "... src/engine/sources/engine_input.s"
+	@echo "... src/engine/sources/engine_time.o"
+	@echo "... src/engine/sources/engine_time.i"
+	@echo "... src/engine/sources/engine_time.s"
 	@echo "... src/engine/sources/gl_helper.o"
 	@echo "... src/engine/sources/gl_helper.i"
 	@echo "... src/engine/sources/gl_helper.s"
@@ -273,6 +402,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/utils/sources/engine_logger.o"
+	@echo "... src/utils/sources/engine_logger.i"
+	@echo "... src/utils/sources/engine_logger.s"
+	@echo "... src/utils/sources/utils_types.o"
+	@echo "... src/utils/sources/utils_types.i"
+	@echo "... src/utils/sources/utils_types.s"
 .PHONY : help
 
 

@@ -1,5 +1,11 @@
 #pragma once
 
+#include "engine_input.h"
+#include "../../utils/headers/engine_logger.h"
+#include "engine_time.h"
+#include "gl_helper.h"  // Include this first among OpenGL-related headers
+#include "screen.h"
+
 namespace RadTrack
 {
     class Engine

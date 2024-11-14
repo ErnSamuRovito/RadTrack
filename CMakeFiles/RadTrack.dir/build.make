@@ -69,10 +69,24 @@ include CMakeFiles/RadTrack.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/RadTrack.dir/flags.make
 
+CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.o: CMakeFiles/RadTrack.dir/flags.make
+CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.o: src/close_window_callback.cpp
+CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.o: CMakeFiles/RadTrack.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.o -MF CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.o.d -o CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.o -c /home/samuele/CLionProjects/RadTrack/src/close_window_callback.cpp
+
+CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuele/CLionProjects/RadTrack/src/close_window_callback.cpp > CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.i
+
+CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuele/CLionProjects/RadTrack/src/close_window_callback.cpp -o CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.s
+
 CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.o: CMakeFiles/RadTrack.dir/flags.make
 CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.o: src/engine/sources/engine.cpp
 CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.o: CMakeFiles/RadTrack.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.o -MF CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.o.d -o CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.o -c /home/samuele/CLionProjects/RadTrack/src/engine/sources/engine.cpp
 
 CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.i: cmake_force
@@ -83,10 +97,38 @@ CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuele/CLionProjects/RadTrack/src/engine/sources/engine.cpp -o CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.s
 
+CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.o: CMakeFiles/RadTrack.dir/flags.make
+CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.o: src/engine/sources/engine_input.cpp
+CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.o: CMakeFiles/RadTrack.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.o -MF CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.o.d -o CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.o -c /home/samuele/CLionProjects/RadTrack/src/engine/sources/engine_input.cpp
+
+CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuele/CLionProjects/RadTrack/src/engine/sources/engine_input.cpp > CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.i
+
+CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuele/CLionProjects/RadTrack/src/engine/sources/engine_input.cpp -o CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.s
+
+CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.o: CMakeFiles/RadTrack.dir/flags.make
+CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.o: src/engine/sources/engine_time.cpp
+CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.o: CMakeFiles/RadTrack.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.o -MF CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.o.d -o CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.o -c /home/samuele/CLionProjects/RadTrack/src/engine/sources/engine_time.cpp
+
+CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuele/CLionProjects/RadTrack/src/engine/sources/engine_time.cpp > CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.i
+
+CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuele/CLionProjects/RadTrack/src/engine/sources/engine_time.cpp -o CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.s
+
 CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.o: CMakeFiles/RadTrack.dir/flags.make
 CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.o: src/engine/sources/gl_helper.cpp
 CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.o: CMakeFiles/RadTrack.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.o -MF CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.o.d -o CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.o -c /home/samuele/CLionProjects/RadTrack/src/engine/sources/gl_helper.cpp
 
 CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.i: cmake_force
@@ -100,7 +142,7 @@ CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.s: cmake_force
 CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.o: CMakeFiles/RadTrack.dir/flags.make
 CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.o: src/engine/sources/screen.cpp
 CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.o: CMakeFiles/RadTrack.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.o -MF CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.o.d -o CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.o -c /home/samuele/CLionProjects/RadTrack/src/engine/sources/screen.cpp
 
 CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.i: cmake_force
@@ -114,7 +156,7 @@ CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.s: cmake_force
 CMakeFiles/RadTrack.dir/src/glad.c.o: CMakeFiles/RadTrack.dir/flags.make
 CMakeFiles/RadTrack.dir/src/glad.c.o: src/glad.c
 CMakeFiles/RadTrack.dir/src/glad.c.o: CMakeFiles/RadTrack.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/RadTrack.dir/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/RadTrack.dir/src/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RadTrack.dir/src/glad.c.o -MF CMakeFiles/RadTrack.dir/src/glad.c.o.d -o CMakeFiles/RadTrack.dir/src/glad.c.o -c /home/samuele/CLionProjects/RadTrack/src/glad.c
 
 CMakeFiles/RadTrack.dir/src/glad.c.i: cmake_force
@@ -128,7 +170,7 @@ CMakeFiles/RadTrack.dir/src/glad.c.s: cmake_force
 CMakeFiles/RadTrack.dir/src/main.cpp.o: CMakeFiles/RadTrack.dir/flags.make
 CMakeFiles/RadTrack.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/RadTrack.dir/src/main.cpp.o: CMakeFiles/RadTrack.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RadTrack.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RadTrack.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RadTrack.dir/src/main.cpp.o -MF CMakeFiles/RadTrack.dir/src/main.cpp.o.d -o CMakeFiles/RadTrack.dir/src/main.cpp.o -c /home/samuele/CLionProjects/RadTrack/src/main.cpp
 
 CMakeFiles/RadTrack.dir/src/main.cpp.i: cmake_force
@@ -139,22 +181,60 @@ CMakeFiles/RadTrack.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RadTrack.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuele/CLionProjects/RadTrack/src/main.cpp -o CMakeFiles/RadTrack.dir/src/main.cpp.s
 
+CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.o: CMakeFiles/RadTrack.dir/flags.make
+CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.o: src/utils/sources/engine_logger.cpp
+CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.o: CMakeFiles/RadTrack.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.o -MF CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.o.d -o CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.o -c /home/samuele/CLionProjects/RadTrack/src/utils/sources/engine_logger.cpp
+
+CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuele/CLionProjects/RadTrack/src/utils/sources/engine_logger.cpp > CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.i
+
+CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuele/CLionProjects/RadTrack/src/utils/sources/engine_logger.cpp -o CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.s
+
+CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.o: CMakeFiles/RadTrack.dir/flags.make
+CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.o: src/utils/sources/utils_types.cpp
+CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.o: CMakeFiles/RadTrack.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.o -MF CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.o.d -o CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.o -c /home/samuele/CLionProjects/RadTrack/src/utils/sources/utils_types.cpp
+
+CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuele/CLionProjects/RadTrack/src/utils/sources/utils_types.cpp > CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.i
+
+CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuele/CLionProjects/RadTrack/src/utils/sources/utils_types.cpp -o CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.s
+
 # Object files for target RadTrack
 RadTrack_OBJECTS = \
+"CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.o" \
 "CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.o" \
+"CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.o" \
+"CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.o" \
 "CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.o" \
 "CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.o" \
 "CMakeFiles/RadTrack.dir/src/glad.c.o" \
-"CMakeFiles/RadTrack.dir/src/main.cpp.o"
+"CMakeFiles/RadTrack.dir/src/main.cpp.o" \
+"CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.o" \
+"CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.o"
 
 # External object files for target RadTrack
 RadTrack_EXTERNAL_OBJECTS =
 
+RadTrack: CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.o
 RadTrack: CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.o
+RadTrack: CMakeFiles/RadTrack.dir/src/engine/sources/engine_input.cpp.o
+RadTrack: CMakeFiles/RadTrack.dir/src/engine/sources/engine_time.cpp.o
 RadTrack: CMakeFiles/RadTrack.dir/src/engine/sources/gl_helper.cpp.o
 RadTrack: CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.o
 RadTrack: CMakeFiles/RadTrack.dir/src/glad.c.o
 RadTrack: CMakeFiles/RadTrack.dir/src/main.cpp.o
+RadTrack: CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.o
+RadTrack: CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.o
 RadTrack: CMakeFiles/RadTrack.dir/build.make
 RadTrack: /usr/local/lib/libglfw3.a
 RadTrack: /usr/lib/x86_64-linux-gnu/libGLX.so
@@ -162,7 +242,7 @@ RadTrack: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 RadTrack: /usr/lib/x86_64-linux-gnu/librt.a
 RadTrack: /usr/lib/x86_64-linux-gnu/libm.so
 RadTrack: CMakeFiles/RadTrack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable RadTrack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/samuele/CLionProjects/RadTrack/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable RadTrack"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RadTrack.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

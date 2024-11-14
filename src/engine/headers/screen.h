@@ -1,4 +1,5 @@
-#include <glad/glad.h>
+#pragma once
+
 #include <GLFW/glfw3.h>
 
 namespace RadTrack {
@@ -11,7 +12,7 @@ namespace RadTrack {
         Screen() = delete;
 
         static void Init(int SCR_WIDTH, int SCR_HEIGHT,
-                         bool isMouseCaptured = false, const char* title = "OpenGL",
+                         bool isMouseCaptured = false, const char* title = "RadTrack",
                          bool msaa = false, bool vsync = false);
 
         static int GetWidth();

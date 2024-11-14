@@ -1,3 +1,4 @@
+#define GLFW_INCLUDE_NONE
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
@@ -5,6 +6,10 @@
 #include "engine/headers/screen.h"
 #include "engine/headers/engine.h"
 #include "engine/headers/gl_helper.h"
+#include "engine/headers/engine_time.h"
+
+// Callbacks
+#include "close_window_callback.h"
 
 // Default resolution
 const int SCR_WIDTH = 800;
@@ -27,11 +32,19 @@ int main(int argc, char *argv[]) {
                         .set_gl_depth_test(true)
                         .build();
 
-    //Time::Update(Screen::GetTime());
+    Input::Init();
+
+    InitCloseWindowCallback();
+
+    Time::Update(Screen::GetTime());
     while (!Screen::isWindowClosed())
     {
-        GL::SetColor(0.7f, 0.6f, 0.5f, 1.0f);
+        GL::SetColor(0.7f, 0.4f, 0.5f, 1.0f);
         GL::Clear();
+
+        Time::Update(Screen::GetTime());
+
+        //std::cout << Time::GetDeltaTime() << std::endl;
 
         Screen::PollEvents();
         Screen::SwapBuffers();

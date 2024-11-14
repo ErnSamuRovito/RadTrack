@@ -1,5 +1,6 @@
 #include "../headers/engine.h"
 #include "../headers/screen.h"
+#include "../../utils/headers/engine_logger.h"
 #include "../headers/gl_helper.h"
 
 using namespace RadTrack;

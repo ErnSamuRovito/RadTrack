@@ -1,8 +1,9 @@
-CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.o: \
- /home/samuele/CLionProjects/RadTrack/src/engine/sources/engine.cpp \
+CMakeFiles/RadTrack.dir/src/close_window_callback.cpp.o: \
+ /home/samuele/CLionProjects/RadTrack/src/close_window_callback.cpp \
  /usr/include/stdc-predef.h \
- /home/samuele/CLionProjects/RadTrack/src/engine/sources/../headers/engine.h \
- /home/samuele/CLionProjects/RadTrack/src/engine/sources/../headers/engine_input.h \
+ /home/samuele/CLionProjects/RadTrack/src/close_window_callback.h \
+ /home/samuele/CLionProjects/RadTrack/src/engine/headers/engine.h \
+ /home/samuele/CLionProjects/RadTrack/src/engine/headers/engine_input.h \
  /usr/include/glad/glad.h /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -139,8 +140,8 @@ CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /home/samuele/CLionProjects/RadTrack/src/engine/sources/../headers/../../utils/headers/engine_logger.h \
- /home/samuele/CLionProjects/RadTrack/src/engine/sources/../headers/../../utils/headers/utils_types.h \
+ /home/samuele/CLionProjects/RadTrack/src/engine/headers/../../utils/headers/engine_logger.h \
+ /home/samuele/CLionProjects/RadTrack/src/engine/headers/../../utils/headers/utils_types.h \
  /usr/include/c++/13/ostream /usr/include/c++/13/ios \
  /usr/include/c++/13/exception /usr/include/c++/13/bits/exception_ptr.h \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \
@@ -181,6 +182,6 @@ CMakeFiles/RadTrack.dir/src/engine/sources/engine.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/iostream \
- /home/samuele/CLionProjects/RadTrack/src/engine/sources/../headers/engine_time.h \
- /home/samuele/CLionProjects/RadTrack/src/engine/sources/../headers/gl_helper.h \
- /home/samuele/CLionProjects/RadTrack/src/engine/sources/../headers/screen.h
+ /home/samuele/CLionProjects/RadTrack/src/engine/headers/engine_time.h \
+ /home/samuele/CLionProjects/RadTrack/src/engine/headers/gl_helper.h \
+ /home/samuele/CLionProjects/RadTrack/src/engine/headers/screen.h
