@@ -8,7 +8,7 @@ namespace RadTrack
 namespace Types
 {
 
-enum LogLevel
+enum class LogLevel
 {
     DEBUG = 0,
     INFO,

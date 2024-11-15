@@ -46,6 +46,7 @@ class Logger
     static void Log(RadTrack::Types::LogLevel level, Args... args)
     {
         if (Logger::level > level)
+            //std::cout << "il tuo log non soddisfa i requisiti" << std::endl;
             return;
         LogToStdout(level, ": ", args...);
         if (Logger::log_file.is_open())

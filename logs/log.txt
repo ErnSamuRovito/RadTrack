@@ -1,0 +1,5 @@
+
+----------2024-11-15 20:31:31----------
+2024-11-15 20:31:31 Informazioni generali - Esempio di log
+2024-11-15 20:31:31 Questo è un messaggio di debug
+2024-11-15 20:31:31 Errore grave - Dettagli aggiuntivi

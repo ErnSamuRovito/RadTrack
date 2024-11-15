@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/samuele/CLionProjects/RadTrack/src/engine/sources/screen.cpp" "CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.o" "gcc" "CMakeFiles/RadTrack.dir/src/engine/sources/screen.cpp.o.d"
   "/home/samuele/CLionProjects/RadTrack/src/main.cpp" "CMakeFiles/RadTrack.dir/src/main.cpp.o" "gcc" "CMakeFiles/RadTrack.dir/src/main.cpp.o.d"
   "/home/samuele/CLionProjects/RadTrack/src/utils/sources/engine_logger.cpp" "CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.o" "gcc" "CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.o.d"
+  "/home/samuele/CLionProjects/RadTrack/src/utils/sources/logger.cpp" "CMakeFiles/RadTrack.dir/src/utils/sources/logger.cpp.o" "gcc" "CMakeFiles/RadTrack.dir/src/utils/sources/logger.cpp.o.d"
   "/home/samuele/CLionProjects/RadTrack/src/utils/sources/utils_types.cpp" "CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.o" "gcc" "CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.o.d"
   )
 

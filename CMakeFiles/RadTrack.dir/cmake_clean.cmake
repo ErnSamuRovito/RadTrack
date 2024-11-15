@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/RadTrack.dir/src/main.cpp.o.d"
   "CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.o"
   "CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.o.d"
+  "CMakeFiles/RadTrack.dir/src/utils/sources/logger.cpp.o"
+  "CMakeFiles/RadTrack.dir/src/utils/sources/logger.cpp.o.d"
   "CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.o"
   "CMakeFiles/RadTrack.dir/src/utils/sources/utils_types.cpp.o.d"
   "RadTrack"

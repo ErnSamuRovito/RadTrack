@@ -345,6 +345,30 @@ src/utils/sources/engine_logger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/utils/sources/engine_logger.cpp.s
 .PHONY : src/utils/sources/engine_logger.cpp.s
 
+src/utils/sources/logger.o: src/utils/sources/logger.cpp.o
+.PHONY : src/utils/sources/logger.o
+
+# target to build an object file
+src/utils/sources/logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/utils/sources/logger.cpp.o
+.PHONY : src/utils/sources/logger.cpp.o
+
+src/utils/sources/logger.i: src/utils/sources/logger.cpp.i
+.PHONY : src/utils/sources/logger.i
+
+# target to preprocess a source file
+src/utils/sources/logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/utils/sources/logger.cpp.i
+.PHONY : src/utils/sources/logger.cpp.i
+
+src/utils/sources/logger.s: src/utils/sources/logger.cpp.s
+.PHONY : src/utils/sources/logger.s
+
+# target to generate assembly for a file
+src/utils/sources/logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RadTrack.dir/build.make CMakeFiles/RadTrack.dir/src/utils/sources/logger.cpp.s
+.PHONY : src/utils/sources/logger.cpp.s
+
 src/utils/sources/utils_types.o: src/utils/sources/utils_types.cpp.o
 .PHONY : src/utils/sources/utils_types.o
 
@@ -405,6 +429,9 @@ help:
 	@echo "... src/utils/sources/engine_logger.o"
 	@echo "... src/utils/sources/engine_logger.i"
 	@echo "... src/utils/sources/engine_logger.s"
+	@echo "... src/utils/sources/logger.o"
+	@echo "... src/utils/sources/logger.i"
+	@echo "... src/utils/sources/logger.s"
 	@echo "... src/utils/sources/utils_types.o"
 	@echo "... src/utils/sources/utils_types.i"
 	@echo "... src/utils/sources/utils_types.s"
